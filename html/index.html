@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos - Etec Guarulhos</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- inicio navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Agenda</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Mais+
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+              <li><a class="dropdown-item" href="#">Atualizar</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Buscar</a></li>
+              <li><a class="dropdown-item" href="#">Apagar</a></li>
+            </ul>
+        </li>   
+      </ul>   
+    </div>
+  </div>
+</nav>
+<!-- fim navbar -->
+
+<!-- inicio cards -->
+<div class="row row-cols-1 row-cols-2 row-cols-3 row-cols-4" style="max-width: 80%"> 
+<div class="col">
+    <div class="card" style="width: 18rem;">
+    <img src="../imagens/dicas-programadores-iniciantes.png" class="card-img-top" alt="Imagem de uma pessoa programndo">
+    <div class="card-body">
+      <h5 class="card-title">Programação</h5>
+      <p class="card-text">A programação é a arte e a ciência de escrever programas de computador que 
+        executam tarefas específicas. É uma habilidade crucial em um mundo cada vez mais dependente da tecnologia e permite que 
+        as pessoas criem soluções para problemas complexos de maneiras inovadoras.</p>
+      <a href="#" class="btn btn-primary">Venha Conhecer!</a>
+    </div>
+  </div>
+  </div>
+<div class="col">
+  <div class="card" style="width: 18rem;">
+    <img src="../imagens/img04.jpg" class="card-img-top" alt="Imagem de uma pessoa programndo">
+    <div class="card-body">
+      <h5 class="card-title">Designer</h5>
+      <p class="card-text">Design é a aplicação de criatividade e 
+        habilidade técnica para resolver problemas e criar soluções visuais atraentes e funcionais. 
+        Os designers trabalham em uma ampla variedade de setores, desde design gráfico e de produtos até design de interiores e de moda.</p>
+      <a href="#" class="btn btn-primary">Venha Conhecer!</a>
+    </div>
+  </div>
+</div>
+<div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="../imagens/img05.jpg" class="card-img-top" alt="Imagem de uma pessoa programndo">
+      <div class="card-body">
+        <h5 class="card-title">Banco de Dados</h5>
+        <p class="card-text">Um banco de dados é uma coleção organizada de informações armazenadas e acessíveis por meio de computadores. Eles são usados para armazenar, 
+            gerenciar e recuperar grandes quantidades de informações, como dados de clientes, 
+            informações de transações financeiras, registros de vendas, entre outros.</p>
+        <a href="#" class="btn btn-primary">Venha Conhecer!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="../imagens/img06.jpg" class="card-img-top" alt="Imagem de uma pessoa programndo">
+      <div class="card-body">
+        <h5 class="card-title">Back-End</h5>
+        <p class="card-text">Back-end é a parte de um sistema de software que é responsável por realizar as tarefas mais complexas e não visíveis ao usuário final. É o componente que cuida das operações por trás da interface gráfica do usuário (front-end) e garante que as informações sejam armazenadas e manipuladas de maneira eficiente e segura.</p>
+        <a href="#" class="btn btn-primary">Venha Conhecer!</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- fim cards -->
+
+  <!-- inicio carrousel -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../imagens/dicas-programadores-iniciantes.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagens/img02.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagens/img03.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- fim carrousel -->
+
+
+<!-- script bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
